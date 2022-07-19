@@ -167,6 +167,9 @@ h2{
     padding:5px 0px;
     border-radius: 10px;
 }
+.client-info p{
+    margin:0px;
+}
 .client-info:nth-child(odd){
     background-color: #FFFFFF;
 }
@@ -184,4 +187,68 @@ h2{
 .profile-nav>.fa-solid{
     font-size: 20px;
     margin-left:10px;
+}
+
+/* Profile Status Styling */
+.profile-status{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #D0D3E2;
+    padding:20px;
+    background-color: #fff;
+    position: relative;
+    top:10px;
+    z-index: 10;
+}
+.profile-status h3{
+    font-size: 15px;
+}
+.profile-status p{
+    font-size: 14px;
+}
+.status-btn{
+    background-color: #6F6AF8;
+    color:#fff;
+    border: none;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+
+progress{
+    width: 8em;
+}
+/* .profile-nav:hover .profile-status{
+    display: block;
+} */
+/* to do list styling */
+.list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list-item span>.fa-solid{
+    font-size: 20px;
+    margin-right:5px;
+    background-color: #E3E6F3;
+    padding:15px;
+    border-radius: 50%;
+}
+.profile h4{
+    font-size: 14px;
+    margin:0px;
+}
+.profile p{
+    font-size: 14px;
+    margin:2px;
+}
+
+.board-meeting{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding:20px;
+    border-radius: 10px;
+}
+.board-meeting span>.fa-solid{
+    font-size: 20px;
+    margin-right:5px;
 }
