@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Common Styling */
+.container{
+    gap: 15px;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80px repeat(12, 1fr);
+    grid-template-rows: 1fr, 2fr, 2fr, 2fr, 2fr;
+    background-color: #F8FAFB;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    color: #1F1A5A;
+    margin:5px;
+}
+.fa-solid{
+    color: #1F1A5A;
+    font-size: 40px;
+}
+/* Menu Bar Styling */
+.menu-bar{
+    grid-row: 1/5;
+    background-color: #6F6AF8;
+    border-radius: 10px;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:60px 0px;
+}
+.menu-bar .fa-solid{
+    margin-bottom: 30px;
+    color:#fff;
+    font-size: 25px;
+}
+.menu-top, .menu-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome{
+    grid-column: 2/12;
+}
+/* Combind Stylings */
+.stats, .clients, .recent-clients{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    grid-column: 2/12;
+}
+
+/* Stats Section Styling */
+.balance{
+    grid-column: 1/4;
+    background-color: #fff;
+    border-radius:10px ;
+    padding: 20px;
+}
+.monthly-usage{
+    grid-column: 4/7;
+    background-color: #fff;
+    border-radius:10px ;
+    padding: 20px;
+}
+.employee{
+    grid-column: 7/10;
+    background-color: #fff;
+    border-radius:10px ;
+    padding: 20px;
+}
+.card-spend{
+    grid-column: 10/-1;
+    background-color: #fff;
+    border-radius:10px ;
+    padding: 20px;
+}
+/* Clients Section */
+.new-clients, .invoice-due{
+    grid-column: 1/5;
+    background-color: #fff;
+    border-radius:10px ;
+    padding: 20px;
+}
+.clients-count, .invoice-count{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.clients-count h1, .invoice-count h1{
+    font-size: 40px;
+    color:#1F1A5A;
+    margin:0px;
+}
+
+.clients-count p{
+    background-color: #E2FBDA;
+    color:#7CCE68;
+    padding:5px 15px;
+    border-radius: 5px;
+}
+.invoice-count p{
+    background-color: #FEDADF;
+    color:#C14454;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+/*Revenue Section*/
+.revenue{
+    grid-column: 5/-1;
+    background-color: #fff;
+    border-radius:10px ;
+    grid-row: 1/3;
+    padding: 20px;
+}
+.revenue .top-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Recent Clients Section Styling*/
+.client{
+    grid-column: 1/-1;
+    background-color: #e9e9e9;
+    border-radius:10px ;
+    padding: 20px;
+}
+
+/* Profile Section Styling */
+.profile{
+    grid-column: 12/-1;
+    grid-row: 1/5;
+    background-color:#F2F2FD;
+    padding:10px;
+    border-radius: 10px;
+}
